@@ -5,11 +5,12 @@ Template: twentyseventeen
 */
 
 /* Modifie le titre d'un article */
-.entry-title {
+/* .entry-title {
     color: royalblue;
 }
 
 /* Modifie les meta d'un article */
+/*
 .entry-meta {
     color: lightslategrey;
 }
@@ -20,11 +21,13 @@ Template: twentyseventeen
 }
 
 /* Modifie le contenu d'un article */
+/*
 .entry-content {
     text-transform: uppercase;
 }
 
 /* Modifie l'affichage du contenu et de la sidebar */
+/*
 #content .wrap {
     display: flex;
     flex-direction: column;
@@ -33,6 +36,7 @@ Template: twentyseventeen
 }
 
 /* Modifie les boutons */
+/*
 button,
 input[type="button"],
 input[type="submit"],
@@ -44,27 +48,32 @@ a.post-edit-link {
 }
 
 /* Modifie la couleur de fond */
+/*
 .site-content-contain {
     background-color: lightblue;
 }
 
 /* Modifie le titre d'une page */
+/*
 .page-title {
     color: white;
 }
 
 /* Modifie le contenu d'un commentaire */
+/*
 .comment-content p {
     font-size: 1.4rem;
     line-height: 1.7rem;
 }
 
 /* Change l'affichage de la section des articles */
+/*
 #primary {
     width: calc(100% - 24px)!important;
 }
 
 /* Modifie l'affichage de la liste des articles */
+/*
 #main {
     display: flex;
     justify-content: center;
@@ -73,6 +82,7 @@ a.post-edit-link {
 }
 
 /* Modifie l'affichage d'un post */
+/*
 .post {
     background-color: white;
     padding: 24px;
@@ -94,6 +104,7 @@ a.post-edit-link {
 }
 
 /* Modifier l'admin bar */
+/*
 #wpadminbar {
     position: fixed;
     top: auto;
@@ -112,6 +123,37 @@ a.post-edit-link {
     width: 100%;
     justify-content: center;
     align-items: center;
+} 
+
+*/
+
+#primary {
+    width: 100%!important;
 }
 
+.monsupertitre {
+    color: red;
+}
+
+.wf3_post {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.wf3_post_thumbnail, .wf3_post_content {
+    flex: 1;
+    margin: 5px;
+}
+
+.wf3_post_title {
+    color: royalblue;
+}
+
+.wf3_post_content .link-more a {
+    background: royalblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
 
