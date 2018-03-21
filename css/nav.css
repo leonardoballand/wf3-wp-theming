@@ -1,0 +1,11 @@
+.wf3_nav_pages_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+}
+
+.wf3_nav_pages_links li {
+    list-style-type: none;
+    margin: 0.5rem;
+}

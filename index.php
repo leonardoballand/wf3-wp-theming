@@ -62,12 +62,18 @@ get_header(); ?>
                             <?php the_excerpt(); ?>
                         </div>
 
-                        <div class="wf3-author">
-                            Publié par <?php the_author_meta('display_name'); ?>
-                        </div>
+                        <div class="wf3_meta">
+                            <p>
+                                Publié par 
+                                <span class="wf3_meta_author">
+                                    <?php the_author_meta('display_name'); ?>
+                                </span>
 
-                        <div class="wf3-date">
-                            <?php echo get_the_date(); ?>
+                                le
+                                <span class="wf3_meta_date">
+                                    <?php echo get_the_date(); ?>
+                                </span>
+                            </p>
                         </div>
                     </div>
                 </article>
