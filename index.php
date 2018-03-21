@@ -46,7 +46,7 @@ get_header(); ?>
                         <?php if (has_post_thumbnail()) : ?>
                             <a href="<?php the_permalink(); ?>" class="wf3_thumbnail_permalink">
                                 <!-- On affiche l'image de l'article -->
-                                <?php the_post_thumbnail('medium') ?>
+                                <?php the_post_thumbnail('profile') ?>
                             </a>
                         <?php endif; ?>
                     </div>
