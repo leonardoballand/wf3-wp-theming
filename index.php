@@ -63,17 +63,12 @@ get_header(); ?>
                         </div>
 
                         <div class="wf3_meta">
-                            <p>
-                                Publié par 
-                                <span class="wf3_meta_author">
-                                    <?php the_author_meta('display_name'); ?>
-                                </span>
-
-                                le
-                                <span class="wf3_meta_date">
-                                    <?php echo get_the_date(); ?>
-                                </span>
-                            </p>
+                            <!--
+                                On utilise notre fonction custom qui formate
+                                pour nous les métas de l'article
+                                (définie dans functions.php)
+                            -->
+                            <?php display_wf3_meta(); ?>
                         </div>
                     </div>
                 </article>

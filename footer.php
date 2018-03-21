@@ -65,9 +65,10 @@
             <div class="wf3_footer_categories">
                 <h2>Mes catégories</h2>
                 <ul class="wf3_footer_categories_list">
-                    <?php wp_list_categories(array(
-                        'title_li' => ''
-                    )); ?>
+                    <?php
+                        // On affiche une liste de catégorie avec le titre "Titre"
+                        getCategoriesList(true, 'Titre'); 
+                    ?>
                 </ul>
             </div>
         </div>

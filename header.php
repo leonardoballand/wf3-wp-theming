@@ -55,19 +55,8 @@
         <ul class="wf3_nav_pages_links">
         <?php
             $pages = get_pages();
-            foreach($pages as $page):
+            displayWF3Menu($pages);
         ?>
-                <li>
-                    <!-- 
-                        // https://developer.wordpress.org/reference/functions/get_page_link/
-                        // Pour récupérer le permalink de la page, on doit utiliser
-                        // get_page_link() en lui passant l'id de la page en paramètre
-                    -->
-                    <a href="<?php echo get_page_link($page->ID); ?>">
-                        <?php echo $page->post_title; ?>
-                    </a>
-                </li>
-        <?php endforeach; ?>
         </ul>
     </nav>
 
