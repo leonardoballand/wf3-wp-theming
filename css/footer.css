@@ -1,21 +1,17 @@
 .wf3_footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
 }
 
-.wf3_footer_archives_links li {
+.wf3_footer_archives_links li,
+.wf3_footer_lastposts_links li,
+.wf3_footer_categories_list li {
     list-style-type: none;
 }
 
-.wf3_footer_archives_links li a {
-    color: royalblue;
-}
-
-.wf3_footer_lastposts_links li {
-    list-style-type: none;
-}
-
-.wf3_footer_posts_links li a {
+.wf3_footer_archives_links li a,
+.wf3_footer_lastposts_links li a,
+.wf3_footer_categories_list li a {
     color: royalblue;
 }

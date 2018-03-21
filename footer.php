@@ -58,7 +58,18 @@
                 </ul>
             </div>
 
-            <div class="wf3_footer_categories"></div>
+            <!-- 
+                // https://developer.wordpress.org/reference/functions/wp_list_categories/
+                // on utilise wp_list_categories() pour récupérer la liste des catégories
+             -->
+            <div class="wf3_footer_categories">
+                <h2>Mes catégories</h2>
+                <ul class="wf3_footer_categories_list">
+                    <?php wp_list_categories(array(
+                        'title_li' => ''
+                    )); ?>
+                </ul>
+            </div>
         </div>
     </footer>
 

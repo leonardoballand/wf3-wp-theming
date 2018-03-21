@@ -9,3 +9,17 @@
     list-style-type: none;
     margin: 0.5rem;
 }
+
+.wf3_nav_pages_links li a {
+    background-color: rgba(0,0,0,0.1);
+    color: rgba(0,0,0,0.5);
+    padding: 15px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease-out;
+}
+
+.wf3_nav_pages_links li a:hover {
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(255,255,255,1);
+    transition: all 0.3s ease-in;
+}
